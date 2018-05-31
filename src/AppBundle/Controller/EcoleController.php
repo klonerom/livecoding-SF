@@ -50,5 +50,12 @@ class EcoleController extends Controller
         ]);
     }
 
+    /**
+     * @Route("/admin", name="admin")
+     */
+    public function adminAction()
+    {
+        return new Response('bonjour');
+    }
 
 }
